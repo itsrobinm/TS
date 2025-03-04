@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "name": "Chair",
+    "description": "Wooden and comfortable to sit on",
+    "price": "7.99",
+    "quantityInStock": 5
+  },
+  {
+    "id": "2",
+    "name": "Table",
+    "description": "Four legs and made from solid oak",
+    "price": "24.99",
+    "quantityInStock": 12
+  },
+  {
+    "id": "3",
+    "name": "Sofa",
+    "description": "Plush and perfect for lounging",
+    "price": "199.99",
+    "quantityInStock": 3
+  },
+  {
+    "id": "4",
+    "name": "Bookcase",
+    "description": "Spacious and stylish storage",
+    "price": "99.99",
+    "quantityInStock": 8
+  },
+  {
+    "id": "5",
+    "name": "Lamp",
+    "description": "Brightens up any room",
+    "price": "19.99",
+    "quantityInStock": 15
+  },
+  {
+    "id": "6",
+    "name": "Rug",
+    "description": "Soft and cozy underfoot",
+    "price": "49.99",
+    "quantityInStock": 7
+  }
+]

@@ -1,0 +1,91 @@
+@use "./global.scss" as g;
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: g.$blue-primary;
+  color: g.$white;
+  font-family: Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  letter-spacing: 0.4px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+.nav {
+  background-color: g.$white;
+  padding: 20px;
+  margin-bottom: 60px;
+}
+.welcome {
+  padding: 0 200px;
+}
+h1 {
+  font-size: 32px;
+  font-weight: 400;
+  color: g.$white;
+}
+.code {
+  font-family: monospace;
+}
+button {
+  background-color: g.$blue-primary;
+  border: g.$white 1px solid;
+  border-radius: 12px;
+  margin-top: 20px;
+  padding: 20px 40px;
+  color: g.$white;
+  cursor: pointer;
+  font-family: Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+}
+.logo {
+  max-width: 200px;
+}
+.welcome-image {
+  max-width: 300px;
+}
+button:hover {
+  transition: all 0.2s ease-out;
+  color: g.$interaction-primary-text;
+  background-color: g.$interaction-primary-bg;
+  border-color: transparent;
+  box-shadow: 0 6px 30px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-align-centre {
+  align-items: center;
+}
+
+.flex-align-start {
+  align-items: flex-start;
+}
+
+.flex-justify-centre {
+  justify-content: center;
+}
+
+.flex-justify-space-between {
+  justify-content: space-between;
+}
+
+.flex-justify-start {
+  justify-content: flex-start;
+}
+
+.flex-col {
+  flex-direction: column;
+}
