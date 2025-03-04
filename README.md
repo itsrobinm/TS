@@ -3,7 +3,7 @@ This assignment is aimed at testing your ability to solve a coding challenge usi
 
 Your task is to create an online store to showcase our clients' products to their customers.
 
-Already set up for you is a products endpoint: ```/get-products``` which will return an array of products.
+Already set up for you is a products endpoint: ```/api/get-products``` which will return an array of products.
 
 You will need to:
 - Dislay the products
