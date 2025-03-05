@@ -6,7 +6,7 @@ Your task is to create an online store to showcase our clients' products to thei
 Already set up for you is a products endpoint: ```/api/get-products``` which will return an array of products.
 
 You will need to:
-- Dislay the products
+- Display the products
 - Allow customers to add and remove products from their basket
 - Display the total cost of the customer's basket
 
