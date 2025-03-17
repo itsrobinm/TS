@@ -3,7 +3,9 @@ This assignment is aimed at testing your ability to solve a coding challenge usi
 
 Your task is to create an online store to showcase our clients' products to their customers.
 
-Already set up for you is a products endpoint: ```/api/get-products``` which will return an array of products.
+Already set up for you is a products endpoint: ```/api/get-products``` (**GET** and **POST**) which will return an array of products.
+
+You can visit <http://localhost:5173/api/get-products> to see the data being returned from the endpoint.
 
 You will need to:
 - Display the products
